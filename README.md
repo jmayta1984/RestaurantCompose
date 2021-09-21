@@ -1,6 +1,6 @@
 <h1 align="center">RestaurantCompose</h1>
 <p align="center">  
-A demo app using compose based on modern Android tech-stacks and MVVM architecture. Persisted data in the database via repository pattern, using compose.
+A demo app using compose based on modern Android tech-stacks and MVVM architecture. Fetching data from the network via repository pattern via repository pattern, using compose.
 </p>
 
 <p align="center">
