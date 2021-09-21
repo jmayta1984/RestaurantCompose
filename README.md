@@ -26,6 +26,12 @@ A demo app using compose based on modern Android tech-stacks and MVVM architectu
 - [Coil](https://github.com/coil-kt/coil) - An image loading library for Android backed by Kotlin Coroutines.
 - [Retrofit2](https://github.com/square/retrofit) - construct the REST APIs and paging network data.
 
+## MAD Score
+![summary](https://user-images.githubusercontent.com/38768001/134120698-d7e82166-a693-477b-a7a8-06f1bb2fe29a.png)
+
+## Architecture
+RestaurantCompose is based on MVVM architecture and a repository pattern.
+
 # License
 ```xml
 Designed and developed by 2021 jmayta1984 (Jorge Mayta)
