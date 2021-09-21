@@ -11,6 +11,7 @@ A demo app using compose based on modern Android tech-stacks and MVVM architectu
 ## Tech stack & Open-source libraries
 - Minimum SDK level 21
 - 100% [Kotlin](https://kotlinlang.org/) based + [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) for asynchronous.
+- [Hilt](https://dagger.dev/hilt/) for dependency injection.
 - JetPack
   - Compose - A modern toolkit for building native Android UI.
   - LiveData - notify domain layer data to views.
