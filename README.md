@@ -31,6 +31,7 @@ A demo app using compose based on modern Android tech-stacks and MVVM architectu
 
 ## Architecture
 RestaurantCompose is based on MVVM architecture and a repository pattern.
+![architecture](https://user-images.githubusercontent.com/38768001/134121196-9a278e99-fc4c-426a-a136-d564ebc2915d.png)
 
 # License
 ```xml
