@@ -14,29 +14,10 @@
  * limitations under the License.
  */
 
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+package pe.edu.upc.restaurantsapp
 
-buildscript {
-    apply from: './dependencies.gradle'
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath "com.android.tools.build:gradle:7.0.2"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21"
-        classpath "com.google.dagger:hilt-android-gradle-plugin:2.38.1"
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
+@HiltAndroidApp
+class RestaurantApp : Application()

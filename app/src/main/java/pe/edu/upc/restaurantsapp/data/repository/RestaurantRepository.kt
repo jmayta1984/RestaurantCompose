@@ -14,29 +14,13 @@
  * limitations under the License.
  */
 
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+package pe.edu.upc.restaurantsapp.data.repository
 
-buildscript {
-    apply from: './dependencies.gradle'
+import pe.edu.upc.restaurantsapp.data.remote.RestaurantService
+import javax.inject.Inject
 
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        classpath "com.android.tools.build:gradle:7.0.2"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21"
-        classpath "com.google.dagger:hilt-android-gradle-plugin:2.38.1"
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
+class RestaurantRepository @Inject constructor(
+    private val restaurantService: RestaurantService
+) {
+    suspend fun fetchRestaurants() = restaurantService.fetchRestaurants()
 }
